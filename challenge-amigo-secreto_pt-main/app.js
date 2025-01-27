@@ -30,8 +30,5 @@ function exibirNomesNaTela(){
 function sortearAmigo(){
     let nomeSorteado = document.getElementById("resultado");
     let gerarSorteio = amigos[Math.floor(Math.random() * amigos.length)]
-
-            alert(`O nome sorteado foi ${gerarSorteio}!`)
-
-        nomeSorteado.innerHTML = gerarSorteio;
+    nomeSorteado.innerHTML = `Seu amigo secreto é ${gerarSorteio}`;
 }
