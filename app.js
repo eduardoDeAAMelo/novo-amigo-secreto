@@ -31,4 +31,5 @@ function sortearAmigo(){
     let nomeSorteado = document.getElementById("resultado");
     let gerarSorteio = amigos[Math.floor(Math.random() * amigos.length)]
     nomeSorteado.innerHTML = `Seu amigo secreto é ${gerarSorteio}`;
+    
 }
