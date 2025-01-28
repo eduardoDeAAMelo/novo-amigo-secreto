@@ -21,9 +21,9 @@ let listaDeAmigos = document.querySelector("ul");
 
 function atualizarLista(){
     
-    amigos.forEach(function (y){
+    amigos.forEach(function (amigos){
         let lista = document.createElement("li");
-        lista.innerHTML = y;
+        lista.innerHTML = amigos;
         listaDeAmigos.appendChild(lista);
     })
 
@@ -49,10 +49,7 @@ function exibirNomesNaTela(){
 function sortearAmigo(){
     let nomeSorteado = document.getElementById("resultado");
     let gerarSorteio = amigos[Math.floor(Math.random() * amigos.length)]
-    if(gerarSorteio == ""){
-        alert("Não foi encontrado nenhum nome!")
-    }
     nomeSorteado.innerHTML = `Seu amigo secreto é ${gerarSorteio}`;
-
+    
     
 }
