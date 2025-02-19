@@ -17,7 +17,7 @@
 
 body {
     height: 100vh;
-    background-color: var(--color-primary);
+    background-color: #FFF100;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,7 +42,7 @@ body {
 /* Seção de entrada */
 .input-section {
     flex: 60%;
-    background-color: var(--color-secondary);
+    background-color: #dedefd;
     border: 1px solid #000;
     border-radius: 64px 64px 0 0;
     display: flex;
@@ -58,14 +58,14 @@ body {
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-style: italic;
-    color: var(--color-white);
+    color: #006BFF;
 }
 
 .section-title {
     font-family: "Inter", serif;
     font-size: 36px;
     font-weight: 700;
-    color: var(--color-primary);
+    color: #006BFF;
     margin: 10px 0;
     text-align: center;
 }
@@ -116,13 +116,13 @@ button {
 }
 
 .button-add {
-    background-color: var(--color-tertiary);
-    color: var(--color-text);
+    background-color:#FFF100 ;
+    color: #000000;
     border-radius: 0 25px 25px 0;
 }
 
 .button-add:hover {
-    background-color: #a1a1a1;
+    background-color: #006BFF;
 }
 
 /* Listas */
@@ -136,7 +136,7 @@ ul {
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
+    color: #ff6600;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
@@ -149,7 +149,8 @@ ul {
     width: 100%;
     padding: 10px 40px;
     color: var(--color-white);
-    background-color: var(--color-button);
+    font-weight:bolder;
+    background-color: #006BFF;
     font-size: 16px;
 }
 
@@ -158,5 +159,5 @@ ul {
 }
 
 .button-draw:hover {
-    background-color: var(--color-button-hover);
+    background-color: #FFF100;
 }

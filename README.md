@@ -28,6 +28,6 @@
 <img loading="lazy" src="https://avatars.githubusercontent.com/u/195811673?v=4" width=115>
 <sub><b>Eduardo De Araujo Almeida Melo</b></sub>
 <p>(https://github.com/eduardoDeAAMelo)</p>
-<p align="center">
+
 <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 </p>
