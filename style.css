@@ -33,18 +33,16 @@ body {
 
 /* Banner */
 .header-banner {
-    flex: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 10px;
+    padding: 5%;
     gap: 10%;
     width: 100%;
 }
 
 /* Seção de entrada */
 .input-section {
-    flex: 60%;
     background-image: url('assets/fundo-do-mar-4.jpg');
     border: 1px solid #000;
     border-radius: 64px 64px 0 0;
@@ -191,13 +189,17 @@ ul {
 }
 
 @media (max-width:600px) {
+    .main-content {
+        height: auto;
+    }
     .header-banner {
         flex-direction: column;
         text-align: center;
-        gap: 30px;
+        gap: 20px;
     }
     #imagem__bob__patrick {
-        width: 70%;
+        width: 60%;
+        margin-bottom: 20px;
     }
     .main-title {
         width: 100%;
