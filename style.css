@@ -184,7 +184,7 @@ ul {
     width: 40px;
 }
 
-@media (max-width:800px) {
+@media (max-width:600px) {
     .main-content {
         height: 100%;
         gap: 0px;
@@ -196,7 +196,7 @@ ul {
         padding: 30px;
     }
     #imagem__bob__patrick {
-        width: 70%;
+        width: 80%;
         margin-bottom: 20px;
     }
     .main-title {
