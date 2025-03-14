@@ -29,6 +29,7 @@ body {
     flex-direction: column;
     height: 100%;
     width: 100%;
+    gap: 40px;
 }
 
 /* Banner */
@@ -36,7 +37,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5%;
+    padding: 10px;
     gap: 10%;
     width: 100%;
 }
@@ -51,6 +52,7 @@ body {
     align-items: center;
     padding: 20px;
     width: 100%;
+    height: auto;
 }
 
 /* Títulos */
@@ -143,19 +145,12 @@ ul {
     -webkit-text-stroke: 1px rgb(73, 117, 55);
     font-weight:900;
     font-size: 20px;
-    margin-top: 10px;
-    background-color:#ffa096;
-    border: 1px solid #fc6757;
     border-radius: 20px;
-    padding: 15px 30px;
 }
 
 .result-list {
-    margin-top: 15px;
     color: #ffa096;
     -webkit-text-stroke: 1px #fc6757;
-    background-color: #FFFF00;
-    border: 1px solid rgb(73, 117, 55);
     font-size: 22px;
     font-weight: bold;
     text-align: center;
@@ -188,9 +183,10 @@ ul {
     width: 40px;
 }
 
-@media (max-width:600px) {
+@media (max-width:800px) {
     .main-content {
         height: auto;
+        gap: 0px;
     }
     .header-banner {
         flex-direction: column;
@@ -198,7 +194,7 @@ ul {
         gap: 20px;
     }
     #imagem__bob__patrick {
-        width: 60%;
+        width: 70%;
         margin-bottom: 20px;
     }
     .main-title {
